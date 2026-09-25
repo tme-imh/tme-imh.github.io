@@ -13,3 +13,12 @@
 #footer {
     background-color: lightgray;
 }
+
+#columns {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+}
