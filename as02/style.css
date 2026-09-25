@@ -1,24 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 #banner {
     background-color: lightgray;
+    padding: 20px;
 }
 
 #content {
     background-color: lightblue;
-}
-
-#supporting {
-    background-color: white;
-}
-
-#footer {
-    background-color: lightgray;
+    padding: 20px;
 }
 
 #columns {
     display: flex;
     gap: 20px;
+    padding: 20px;
 }
 
 .column {
     flex: 1;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#footer {
+    background-color: lightgray;
+    padding: 10px 20px;
 }
